@@ -1,14 +1,33 @@
-# Node.js template
+MERN Stack To-Do App
+A full-stack To-Do List Application developed using the MERN stack – MongoDB, Express.js, React, and Node.js. This app helps users manage their daily tasks efficiently with powerful features like priority management, status filtering, and real-time task updates.
 
-This is a Node.js project with an HTTP server.
+Features
+User Signup and Login with secure JWT authentication
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io).
+Add new tasks with custom descriptions
 
-## How does this work?
+Mark tasks as Pending or Completed
 
-We run `yarn start` to start an HTTP server that runs on http://localhost:8080. You can open new or existing devtools with the + button next to the devtool tabs.
+Set task priority (High, Medium, Low)
 
-## Resources
+Update existing tasks seamlessly
 
-- [CodeSandbox — Docs](https://codesandbox.io/docs)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
+Delete tasks permanently
+
+Filter tasks based on status and priority
+
+Responsive and clean UI for all device sizes
+
+Tech Stack
+
+Backend:
+
+Node.js
+
+Express.js
+
+MongoDB + Mongoose
+
+JWT (for token-based auth)
+
+Bcrypt (for password hashing)
